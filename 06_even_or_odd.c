@@ -7,15 +7,12 @@ int main()
     printf("Enter x: ");
      scanf(" %d", &x);
 
-
-
-
     if (x%2==0){
-        printf("x is even number");
+        printf("%d is even number", x);
     }
     else
     {
-        printf("x is odd number");
+        printf("%d is odd number", x);
     }
 
 
